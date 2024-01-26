@@ -34,7 +34,8 @@ function AnimeCard({ anime, index }: Prop) {
 				duration: 0.5,
 			}}
 			viewport={{ amount: 0 }}
-			className="max-w-sm rounded relative w-full transition duration-500 ease-in-out transform hover:scale-125"
+			className="group max-w-sm rounded relative w-full transition duration-500 ease-in-out transform hover:scale-110"
+
 		>
 			<div className="relative w-full h-[37vh] ">
 				<Image
@@ -46,7 +47,7 @@ function AnimeCard({ anime, index }: Prop) {
 			</div>
 			<div className="py-4 flex flex-col gap-3">
 				<div className="flex justify-between items-center gap-1">
-					<h2 className="font-bold text-white text-xl line-clamp-1 w-full">
+					<h2 className="font-bold text-white text-xl line-clamp-1 w-full group-hover:line-clamp-none">
 						{anime.name}
 					</h2>
 					<div className="py-1 px-2 bg-[#161921] rounded-sm">
