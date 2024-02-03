@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Anime Vault
 
-## Getting Started
+This is a Nextjs, Tailwindcss project that displays a list of anime characters and their details. It uses server side rendering, API calls, and infinite scrolling to create a fast and responsive website.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- It uses Nextjs, a React framework that enables server side rendering, static site generation, and API routes.
+- It uses Tailwindcss, a utility-first CSS framework that allows for rapid and customizable styling.
+- It uses the shikimori api, to fetch data about anime characters and their shows.
+- It uses infinite scrolling to load more data as the user scrolls down the page, improving the performance and user experience of the website. It also loads the data in small chunks, reducing the network and memory usage.
+- It uses a little bit of hover animation on the cards, adding some interactivity and flair to the website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can check out the live demo of this project at https://anime-vault.vercel.app/ and see the anime characters and their details.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Source
 
-## Learn More
+This project is based on the tutorial by JSMastery, with modifications and enhancements on frontend.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
